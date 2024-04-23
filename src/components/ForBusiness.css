@@ -1,0 +1,56 @@
+.Audience-Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white; /* Dark background */
+    padding: 20px;
+    color: black;
+}
+
+/* Button styles */
+.Audience-Button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.Audience-Content {
+    flex: 1;
+    padding-right: 20px; /* Give some space between text and image */
+}
+
+.Audience-Content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 50px; /* Indent the text */;
+}
+
+.Audience-Title {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-bottom: 1rem;
+    padding-left: 50px; /* Indent the text */
+}
+
+.Audience-Text {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-left: 50px; /* Indent the text */
+    padding-right: 20px;
+}
+
+.Audience-Image {
+    width: 30%; /* Adjust the size as needed */
+    border-radius: 25px; /* Rounded corners for the image */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    /*move right*/
+    margin-left: 65px;
+}

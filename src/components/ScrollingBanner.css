@@ -1,0 +1,37 @@
+.scrolling-banner-container {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: white;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+.scrolling-banner-container:hover {
+  cursor: pointer;
+}
+.scrolling-banner-text {
+  display: inline-block;
+  animation: scrollText 200s linear infinite;
+  font-size: 5rem;
+  color: black;
+}
+
+/* Keyframes for the scrolling text */
+@keyframes scrollText {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .scrolling-banner-text {
+    font-size: 4em;
+  }
+}
+@media (max-width: 480px) {
+  .scrolling-banner-text {
+    font-size: 3.25em;
+  }}

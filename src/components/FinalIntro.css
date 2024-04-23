@@ -1,0 +1,34 @@
+.Final-Section {
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 90%; 
+    margin: auto;
+}
+
+#Blue-Welcome {
+    color: lightblue;
+}
+
+#TestImg {
+    width:100%;
+    object-fit: cover;
+    height: 50vh;
+}
+
+#Gray-Intro {
+    color: gray;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .Final-Section {
+        font-size: 1.2rem; 
+    }
+}
+
+/* Media Query for even smaller screens */
+@media screen and (max-width: 480px) {
+    .Final-Section {
+        font-size: 1rem; 
+    }
+}

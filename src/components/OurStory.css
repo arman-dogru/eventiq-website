@@ -1,0 +1,21 @@
+.Story-Container{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.Story-Content{
+    height: 60vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Assets/StoryAvatar.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 7em;
+}

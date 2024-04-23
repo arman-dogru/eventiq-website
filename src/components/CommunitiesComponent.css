@@ -1,0 +1,45 @@
+.Communities-Container {
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  background-color: white; /* Match the background color */
+  color: black; /* Match the text color */
+  padding: 120px 0; /* Adjust padding to increase vertical space */
+  height: auto; /* Auto height to accommodate content */
+  width: 100%; /* Full width */
+  border-radius: 0; /* No rounded corners as seen in the image */
+}
+
+.Communities-Text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Typical font for clean designs */
+  font-size: 6rem; /* Increase font size for impact */
+  font-weight: 600; /* Semi-bold font weight for the title */
+  letter-spacing: -2px; /* Tighter letter spacing for a modern look */
+  text-align: center; /* Align text to the left */
+  max-width: 1200px; /* Max width to prevent overly long lines */
+  margin: 0 auto; /* Centering the text block horizontally */
+  line-height: 1.2; /* Adjust line-height for better readability */
+}
+#Communities-Heading {
+  color: gray;
+}
+#Communities-Writer {
+  text-align: center;
+}
+/* Responsive styling */
+@media (max-width: 1200px) {
+  .Communities-Text {
+    font-size: 3rem; /* Smaller font size on smaller screens */
+    padding: 0 20px; /* Add padding on the sides */
+  }
+}
+
+@media (max-width: 768px) {
+  .Communities-Container {
+    padding: 60px 20px; /* Less vertical padding on very small screens */
+  }
+  .Communities-Text {
+    font-size: 2rem; /* Even smaller font size on very small screens */
+    text-align: center; /* Center text on very small screens */
+  }
+}

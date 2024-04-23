@@ -1,0 +1,39 @@
+.Manifesto-Conatiner{
+    height: 100vh;
+    width: 100%;
+    /* color: white;
+    background-color: black; */
+}
+.Manifesto-Head{
+    text-align: center;
+    font-size: 5em;
+    margin-bottom:  1em ;
+}
+.Manifesto-Content{
+    background-color: palevioletred;
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    border-radius: 5em;
+    display: flex;
+}
+.Mani-Sec1{
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 3.5em;
+    text-align: center;
+}
+.Mani-Sec2{
+    height: 70vh;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Manifesto-Text{
+    width: 30vw;
+}

@@ -1,0 +1,35 @@
+.Blog-content-header {
+  padding: 1em 13em;
+  h1 {
+    font-size: 2.5em;
+  }
+}
+.Blog-content-author {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.Blog-content-author-avatar {
+  width: 1.5em;
+  border-radius: 0.5em;
+}
+.Blog-content-photo {
+  padding: 1em 8em;
+  box-sizing: border-box;
+  width: 100vw;
+}
+.Blog-content-photo-img {
+  object-fit: contain; /* Updated this line */
+  max-width: 100%;
+}
+.Blog-content p {
+  padding: 1em 15em;
+}
+.Blog-content-box ol{
+  padding: 1em 17em;
+  box-sizing: border-box;
+  background: #d1e8ff70;
+}

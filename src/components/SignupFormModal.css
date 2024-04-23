@@ -1,0 +1,83 @@
+.Signup-form-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  padding-top: 3em;
+  z-index: 9999;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.724);
+  backdrop-filter: blur(10px);
+}
+.Signup-form-close {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  button {
+    width: fit-content;
+    padding: 0.4em;
+    border-radius: 0.6em;
+    background: transparent;
+    color: red;
+    border: none;
+  }
+}
+.Signup-form-close:hover {
+  button {
+    cursor: pointer;
+  }
+}
+.Signup-form {
+  max-height: 85vh;
+  width: 25%;
+  display: flex;
+  gap: 0.7em;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.25em 1.5em 1.25em 1.5em;
+  background: rgb(27 27 27);
+  margin: auto;
+  border-radius: 1em;
+  label {
+    color: white;
+  }
+  input {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 0.75em;
+    color: white;
+    padding: 1em;
+  }
+  select {
+    height: 3em;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0.75em;
+    color: gray;
+  }
+}
+.Signup-form-btn {
+  margin-top: 4em;
+  background: #0096f7;
+  border: none;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 1em;
+}
+.Signup-form-btn:hover {
+  cursor: pointer;
+  background-color: #a3c4da;
+  color: black;
+}
+.Signup-form-signin {
+  margin-top: 1em;
+  display: flex;
+  margin: auto;
+  color: white;
+  gap: 0.5em;
+}
+.confirmation-popup {
+  color:green ;
+}
+.error-popup{
+  color:red
+}

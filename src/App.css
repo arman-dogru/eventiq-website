@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'avenir', sans-serif;
+}
+/* 
+.Homepage-Conatiner {
+    background-color: white;
+
+} */
+.Privacy-Container{
+    text-align: center;
+    margin: 2em;
+    width: 70%;
+    margin: auto;
+    margin-top: 6em;
+}
+.Privacy-Content{
+    text-align: left;
+}
+.background-gif {
+    background-image: url('./Assets/BackgroundLine.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'avenir';
+    src: url('./fonts/avenir_roman_12.otf');
+}

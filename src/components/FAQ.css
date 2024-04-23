@@ -1,0 +1,61 @@
+.FAQ-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.FAQ-Heading {
+  font-size: 4em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+.FAQ-Full {
+  width: 90vw;
+  border-bottom: 1px solid black;
+  font-size: 2em;
+  padding: 1.3rem;
+}
+.faq-answer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 0.8em;
+  font-weight: lighter;
+  white-space: pre-line;
+}
+#DropDown-Arrow {
+  float: right;
+}
+@media (max-width:1025px){
+    .FAQ-Heading {
+    font-size: 3em;
+  }
+  .FAQ-Full {
+    font-size: 2em;
+  }
+  .faq-answer {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 768px) {
+  .FAQ-Heading {
+    font-size: 2.5em;
+  }
+  .FAQ-Full {
+    font-size: 1.7em;
+  }
+  .faq-answer {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 480px) {
+  .FAQ-Heading {
+    font-size: 1.5em;
+  }
+  .FAQ-Full {
+    font-size: 1.25em;
+  }
+  .faq-answer {
+    font-size: 0.75em;
+  }
+}

@@ -1,0 +1,33 @@
+.Story-Info-Container {
+  height: fit-content;
+  width: 100%;
+  padding-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  /* background-color: black;
+  color: white; */
+  text-align: center;
+}
+.Story-Info {
+  padding: 0em 2em 4em 2em;
+}
+.Story-Info-Sub {
+  font-size: 1em;
+  color: rgb(85, 84, 84);
+}
+.Story-Info-Subnote {
+  font-size: 1.5em;
+  text-align: left;
+  padding: 0em 5em 0em 5em;
+}
+.Story-Info-SubPara {
+  margin-top: 1em;
+  font-size: 1.6em;
+}
+.Story-Info-SubDesc {
+  font-size: 1.5em;
+  margin-top: 1.5em;
+  padding: 0em 5em 0em 5em;
+  text-align: left;
+  color: rgb(85, 84, 84);
+}

@@ -1,0 +1,27 @@
+.Classics-About-Container {
+  color: white;
+  width: 100%;
+  height: auto;
+}
+.Aboutus-Heading {
+  font-size: 10em;
+  font-weight: lighter;
+  text-align: center;
+}
+.Aboutus-Text {
+  display: flex;
+  padding: 5em;
+  gap: 5em;
+}
+.Aboutus-img {
+  width: 30vw;
+  height: 60vh;
+  border-radius: 2em;
+}
+.Aboutus-Questions {
+  font-size: 2em;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

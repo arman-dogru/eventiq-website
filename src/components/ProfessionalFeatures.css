@@ -1,0 +1,342 @@
+.Professional-features-container {
+  display: flex;
+  flex-direction: column;
+}
+.Professional-features-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 70vh;
+  width: 100%;
+  gap: 2em;
+  /* background: rgb(0, 0, 0);
+  color: white; */
+  h1 {
+    font-size: 5em;
+    text-transform: uppercase;
+    animation: fade-in linear;
+    animation-timeline: view(300px 0px);
+  }
+  p {
+    font-size: 3em;
+    animation: fade-in linear;
+    animation-timeline: view(300px 0px);
+    text-align: center;
+  }
+}
+#first-line {
+  width: 0.05em;
+  height: 10em;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: black;
+}
+#iconimg {
+  width: 1.75em;
+  height: 1.75em;
+  border-radius: 50%;
+}
+
+.Professional-features-line {
+  width: 0.05em;
+  height: 10em;
+  margin: auto;
+  background: black;
+}
+
+.Professional-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  /* background: rgb(0, 0, 0);
+  color: white; */
+  .Professional-features-text {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    margin-top: 2em;
+    animation: fade-in linear;
+    animation-timeline: view(380px 0px);
+    h1 {
+      font-size: 2.5em;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 1.5em;
+    }
+  }
+  .Professional-features-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+      position: relative;
+      width: 1.75em;
+      height: 1.75em;
+      border-radius: 50%;
+    }
+  }
+
+  .Professional-features-line {
+    position: relative;
+    top: 0em;
+    width: 0.05em;
+    height: 10em;
+    background: black;
+  }
+  .Professional-features-img {
+    width: 25em;
+    height: 12em;
+    border-radius: 1em;
+    overflow: hidden;
+    position: relative;
+    margin-top: 3em;
+    animation: fade-in linear;
+    animation-timeline: view(380px 0px);
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+.register-button {
+  width: 200px;
+  height: 55px;
+  margin-top: 2em;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 1em;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    #f3b243,
+    #28abba,
+    #7584a7,
+    #e33a75
+  );
+  box-shadow: 0 0 20px #f3b243, 0 0 15px #28abba, 0 0 20px #7584a7,
+    0 0 25px #e33a75; /* Multi-color neon glow effect */
+  background-size: 300% 100%;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-button:hover {
+  transform: scale(1.25); /* Scale up on hover */
+  background-position: 100% 0; /* Shift the gradient on hover */
+  box-shadow: 0 0 0px #f3b243, 0 0 0px #28abba, 0 0 10px #7584a7,
+    0 0 40px #e33a75; /* Intensified multi-color neon glow effect */
+}
+.Professional-features-faq{
+ padding-top:5em;
+ display: flex;
+ flex-direction: column;
+ align-items:center;
+ padding-bottom: 7em;
+}
+.Professional-FAQ-Heading {
+  font-size: 4em;
+  margin-bottom: 1em;
+  text-align: center;
+  /* color: white; */
+}
+.Faq-btn {
+  padding: 1em 2em;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.Faq-btn:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-Faq-btn 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-Faq-btn {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.Faq-btn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+@keyframes fade-in {
+  from {
+    scale: 0.8;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+@media (max-width: 1280px) {
+  .Professional-features-header {
+    h1 {
+      font-size: 4em;
+    }
+    p {
+      font-size: 2.5em;
+    }
+  }
+  .Professional-features {
+    .Professional-features-text {
+      width: 50%;
+      h1 {
+        font-size: 2em;
+      }
+      p {
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .Professional-features-header {
+    h1 {
+      font-size: 3.25em;
+    }
+    p {
+      font-size: 2.2em;
+    }
+  }
+  .Professional-features {
+    .Professional-features-text {
+      width: 60%;
+      h1 {
+        font-size: 1.75em;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 1.25em;
+        text-align: left;
+      }
+    }
+  }
+  .register-button {
+    width: 180px;
+    height: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .Professional-features-header {
+    h1 {
+      font-size: 3em;
+    }
+    p {
+      font-size: 2em;
+      text-align: center;
+    }
+  }
+  .Professional-features {
+    .Professional-features-text {
+      width: 70%;
+      h1 {
+        font-size: 1.65em;
+      }
+      p {
+        font-size: 1.2em;
+        text-align: left;
+      }
+    }
+  }
+  .register-button {
+    width: 170px;
+    height: 45px;
+  }
+  .Faq-btn,
+  .Faq-btn:after {
+    width: 200px;
+    height: 86px;
+    line-height: 88px;
+  }
+}
+@media (max-width: 480px) {
+  .Professional-features-header {
+    h1 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.5em;
+      text-align: center;
+    }
+  }
+  .Professional-features {
+    .Professional-features-text {
+      width: 80%;
+      h1 {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 1em;
+        text-align: left;
+      }
+    }
+    .Professional-features-img {
+      width: 20em;
+    }
+  }
+  .register-button {
+    width: 155px;
+    height: 45px;
+  }
+}

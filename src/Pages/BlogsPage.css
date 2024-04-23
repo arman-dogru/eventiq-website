@@ -1,0 +1,112 @@
+.Blogs-header {
+  color: white;
+  margin-top: 7em;
+  text-align: center;
+  background: linear-gradient(to right, #b92b27, #1565c0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  animation: textShine 1s ease-in-out infinite alternate;
+  background-size: 150% auto;
+  h1 {
+    font-size: 4em;
+  }
+  h4 {
+    font-size: 2.5em;
+    margin-top: 0.5em;
+  }
+}
+.Blogs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 7em;
+  padding-right: 7em;
+  box-sizing: border-box;
+  padding-top: 2em;
+}
+.Blogs-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 95%;
+  height: 80vh;
+  border-radius: 1em;
+  box-sizing: border-box;
+  padding: 0.25em 0.25em 1em 1em;
+}
+.Blogs-card-img {
+  border-radius: 2em;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.5s ease;
+  display: inline-block;
+  overflow: hidden;
+  top: 0;
+  height: 60%;
+  width: 100%;
+}
+.Blogs-card-img img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease;
+}
+.Blogs-card-text {
+  margin-top: 0.5em;
+  font-size: 2.1em;
+  margin-bottom: 0.5em;
+  color: white;
+  text-align: center;
+}
+.Blogs-link {
+  display: none;
+  position: absolute;
+  font-size: 1.2em;
+  font-weight: 900;
+  color: white;
+  align-items: center;
+  gap: 1em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Blogs-card:hover {
+  .Blogs-card-img img {
+    transform: scale(1.1);
+    filter: brightness(0.3);
+  }
+  .Blogs-link {
+    display: flex;
+  }
+}
+.Blogs-link:hover {
+  .Link-arrow {
+    transform: translateX(15px);
+  }
+}
+
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .Blogs {
+    display: block;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 2em;
+  }
+  .Blogs-card {
+    height: fit-content;
+    margin-bottom: 2.5em;
+  }
+  .Blogs-card-text {
+    text-align: center;
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,89 @@
+.TeamContainer {
+  width: 100%;
+  /* color: white;
+  background: black; */
+}
+.Team-Head {
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.leadership-team-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.leadership-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+   width: 90%;
+}
+.leadership-member-image-card {
+  border: none;
+  height: 25em;
+  width: 80%;
+  border-radius: 1em;
+  overflow: hidden;
+  border: 1px solid rgb(54, 54, 54);
+  align-items: top;
+}
+
+.leadership-member-image-card-img {
+  width: 100%;
+  height: 100%;
+}
+.leadership-member-name {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 0.5em;
+  text-align: start;
+}
+
+.leadership-member-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.leadership-member-experience {
+  font-size: 1.1em;
+
+  color: rgb(85, 84, 84);
+  margin-bottom: 1em;
+}
+
+.leadership-member-linkedin {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #ffffff;
+  align-self: start;
+}
+/*
+.Team-Content{
+    width: 80vw;
+    margin: auto;
+    height: 100vh;
+
+}
+.Member-Details{
+    display: flex;
+    width: 40vw;
+    height: 30vh;
+    
+}
+.Member-Avatar{
+    height:25vh;
+    background-color: white;
+    width: 20vw;
+}
+.Member-Links{
+    height: 25vh;
+    width: 20vw;
+}
+#avatar-settings{
+    height: 25vh;
+    width: 20vw;
+} */

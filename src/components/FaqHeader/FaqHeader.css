@@ -1,0 +1,15 @@
+.Faq-header-container {
+  display: flex;
+  color: white;
+  margin-top: 8em;
+  height: 55vh;
+  background-image: url("../../Assets/Faqheader.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-size: 100%;
+  align-items: end;
+  h1 {
+    font-size: 4em;
+    margin-left: 1em;
+  }
+}

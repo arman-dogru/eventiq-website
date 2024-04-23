@@ -1,0 +1,59 @@
+.demo-cta-container {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 3em 0em 3em 0em;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cta-message {
+  font-size: 5em;
+}
+
+.merged-button {
+  width: 150px;
+  margin: 2em 20px 3em 20px;
+  padding: 10px 20px;
+  height: 45px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 1em;
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    #f3b243,
+    #28abba,
+    #7584a7,
+    #e33a75
+  );
+  box-shadow: 0 0 20px #f3b243, 0 0 15px #28abba, 0 0 20px #7584a7,
+    0 0 25px #e33a75; /* Multi-color neon glow effect */
+  background-size: 300% 100%;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.merged-button:hover {
+  transform: scale(1.25); /* Scale up on hover */
+  background-position: 100% 0; /* Shift the gradient on hover */
+  box-shadow: 0 0 0px #f3b243, 0 0 0px #28abba, 0 0 10px #7584a7,
+    0 0 40px #e33a75; /* Intensified multi-color neon glow effect */
+}
+@media (max-width: 767px) {
+  .cta-message {
+    font-size: 4em;
+  }
+}
+@media (max-width: 480px) {
+  .cta-message {
+    font-size: 3em;
+  }
+}

@@ -1,0 +1,13 @@
+.Classics-Header-Container{
+    color: rgb(255, 255, 255);
+    background: url("https://images.unsplash.com/photo-1712415341931-96aff76a42e9?q=80&w=2672&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    display: flex;
+    align-items:flex-end;
+    height: 100vh;
+}
+.Classics-Header-Heading-Text{
+    text-align: left;
+    font-size: 5em;
+    width: 50%;
+    padding: 2em;
+}
